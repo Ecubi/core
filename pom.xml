@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>io.github.ecubi</groupId>
 	<artifactId>core</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Library with common Ecubi classes.</description>
 	<url>https://github.com/Ecubi/core</url>
