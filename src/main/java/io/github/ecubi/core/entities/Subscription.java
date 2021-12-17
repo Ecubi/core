@@ -9,6 +9,8 @@ public class Subscription {
 
 	private Plan plan;
 
+	private String status;
+
 	public String getId() {
 		return id;
 	}
@@ -39,6 +41,14 @@ public class Subscription {
 
 	public void setPlan(Plan plan) {
 		this.plan = plan;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
 	}
 
 }
