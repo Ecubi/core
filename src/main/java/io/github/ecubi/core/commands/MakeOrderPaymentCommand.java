@@ -1,6 +1,5 @@
 package io.github.ecubi.core.commands;
 
-import lombok.AllArgsConstructor;
 import lombok.Value;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;
 
@@ -8,9 +7,9 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 public class MakeOrderPaymentCommand {
 
     @TargetAggregateIdentifier
-    private String orderId;
+    private final String orderId;
 
-    private String userId;
+    private final String userId;
 
-    private String cardId;
+    private final String cardId;
 }

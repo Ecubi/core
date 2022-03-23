@@ -1,7 +1,5 @@
 package io.github.ecubi.core.apiresources.entities;
 
-import io.github.ecubi.core.entities.User;
-
 public class ApiCompany {
     private String id;
 

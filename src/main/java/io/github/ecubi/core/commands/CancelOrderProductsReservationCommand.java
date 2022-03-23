@@ -6,5 +6,7 @@ import org.axonframework.modelling.command.TargetAggregateIdentifier;
 @Value
 public class CancelOrderProductsReservationCommand {
     @TargetAggregateIdentifier
-    private String orderId;
+    private final String orderId;
+
+    private final String reason;
 }
